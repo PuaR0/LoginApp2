@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		5EB454BD285F2A2500EF9DDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB454BC285F2A2500EF9DDC /* AppDelegate.swift */; };
 		5EB454BF285F2A2500EF9DDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB454BE285F2A2500EF9DDC /* SceneDelegate.swift */; };
-		5EB454C1285F2A2500EF9DDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB454C0285F2A2500EF9DDC /* ViewController.swift */; };
+		5EB454C1285F2A2500EF9DDC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB454C0285F2A2500EF9DDC /* LoginViewController.swift */; };
 		5EB454C4285F2A2500EF9DDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB454C2285F2A2500EF9DDC /* Main.storyboard */; };
 		5EB454C6285F2A2700EF9DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB454C5285F2A2700EF9DDC /* Assets.xcassets */; };
 		5EB454C9285F2A2700EF9DDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB454C7285F2A2700EF9DDC /* LaunchScreen.storyboard */; };
+		5EB454D6285F2FE700EF9DDC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB454D5285F2FE700EF9DDC /* WelcomeViewController.swift */; };
+		5EB454D8285F300200EF9DDC /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB454D7285F300200EF9DDC /* UserInfoViewController.swift */; };
+		5EB454DA285F301700EF9DDC /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB454D9285F301700EF9DDC /* ImageViewController.swift */; };
+		5EB454DC2861403100EF9DDC /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB454DB2861403100EF9DDC /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5EB454B9285F2A2500EF9DDC /* LoginApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB454BC285F2A2500EF9DDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EB454BE285F2A2500EF9DDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EB454C0285F2A2500EF9DDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EB454C0285F2A2500EF9DDC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5EB454C3285F2A2500EF9DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EB454C5285F2A2700EF9DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EB454C8285F2A2700EF9DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EB454CA285F2A2700EF9DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB454D5285F2FE700EF9DDC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		5EB454D7285F300200EF9DDC /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		5EB454D9285F301700EF9DDC /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		5EB454DB2861403100EF9DDC /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,59 @@
 		5EB454BB285F2A2500EF9DDC /* LoginApp2 */ = {
 			isa = PBXGroup;
 			children = (
-				5EB454BC285F2A2500EF9DDC /* AppDelegate.swift */,
-				5EB454BE285F2A2500EF9DDC /* SceneDelegate.swift */,
-				5EB454C0285F2A2500EF9DDC /* ViewController.swift */,
-				5EB454C2285F2A2500EF9DDC /* Main.storyboard */,
-				5EB454C5285F2A2700EF9DDC /* Assets.xcassets */,
-				5EB454C7285F2A2700EF9DDC /* LaunchScreen.storyboard */,
-				5EB454CA285F2A2700EF9DDC /* Info.plist */,
+				5EB454D4285F2AD600EF9DDC /* Models */,
+				5EB454D1285F2A6100EF9DDC /* ViewControllers */,
+				5EB454D2285F2A7500EF9DDC /* Storyboards */,
+				5EB454D3285F2A8400EF9DDC /* Resourses */,
+				5EB454D0285F2A4000EF9DDC /* Suppors */,
 			);
 			path = LoginApp2;
+			sourceTree = "<group>";
+		};
+		5EB454D0285F2A4000EF9DDC /* Suppors */ = {
+			isa = PBXGroup;
+			children = (
+				5EB454BC285F2A2500EF9DDC /* AppDelegate.swift */,
+				5EB454BE285F2A2500EF9DDC /* SceneDelegate.swift */,
+				5EB454CA285F2A2700EF9DDC /* Info.plist */,
+			);
+			path = Suppors;
+			sourceTree = "<group>";
+		};
+		5EB454D1285F2A6100EF9DDC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5EB454C0285F2A2500EF9DDC /* LoginViewController.swift */,
+				5EB454D5285F2FE700EF9DDC /* WelcomeViewController.swift */,
+				5EB454D7285F300200EF9DDC /* UserInfoViewController.swift */,
+				5EB454D9285F301700EF9DDC /* ImageViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5EB454D2285F2A7500EF9DDC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5EB454C2285F2A2500EF9DDC /* Main.storyboard */,
+				5EB454C7285F2A2700EF9DDC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5EB454D3285F2A8400EF9DDC /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				5EB454C5285F2A2700EF9DDC /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		5EB454D4285F2AD600EF9DDC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EB454DB2861403100EF9DDC /* UserData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB454C1285F2A2500EF9DDC /* ViewController.swift in Sources */,
+				5EB454C1285F2A2500EF9DDC /* LoginViewController.swift in Sources */,
+				5EB454D6285F2FE700EF9DDC /* WelcomeViewController.swift in Sources */,
+				5EB454DC2861403100EF9DDC /* UserData.swift in Sources */,
+				5EB454D8285F300200EF9DDC /* UserInfoViewController.swift in Sources */,
 				5EB454BD285F2A2500EF9DDC /* AppDelegate.swift in Sources */,
+				5EB454DA285F301700EF9DDC /* ImageViewController.swift in Sources */,
 				5EB454BF285F2A2500EF9DDC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +345,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5V5TAGZG5N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LoginApp2/Info.plist;
+				INFOPLIST_FILE = LoginApp2/Suppors/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +360,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +373,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5V5TAGZG5N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LoginApp2/Info.plist;
+				INFOPLIST_FILE = LoginApp2/Suppors/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +388,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
