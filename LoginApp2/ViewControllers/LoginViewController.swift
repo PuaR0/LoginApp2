@@ -14,6 +14,10 @@ class LoginViewController: UIViewController {
     
     private let user = User.getUserData()
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let tabBarController = segue.destination as? UITabBarController else { return }
         guard let viewController = tabBarController.viewControllers else { return }
